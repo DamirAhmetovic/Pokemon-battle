@@ -7,8 +7,6 @@
             $attack;
             $health;
             $type= new type(lighting);
-
-            parent::__construct($name, $starthealth, $attack, $type);
         }
     }
     
