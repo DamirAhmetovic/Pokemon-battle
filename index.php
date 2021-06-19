@@ -27,7 +27,6 @@
           <h4 class="card-title"><?php echo $PD->name ?></h4>
           <p class="card-text"><?php echo $PD->starthealth ?></p>
           <p class="card-text"><?php echo $PD->type ?></p>
-          <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
         </div>
       </div>
       <br>
