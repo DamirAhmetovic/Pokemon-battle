@@ -1,6 +1,8 @@
 <?php
     //require 'types.php';
     require 'pokemon.php';
+    //require 'Pikachu.php';
+    //require 'Charmeleon.php';
 
     $pokedex = [];
     $pokedex [0] = new pokemon('Pikachu', 60, []); //EnergyType::LIGHTNING,

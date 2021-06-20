@@ -10,7 +10,7 @@
             public function __construct($name, $starthealth, $type, $attack, $health)
             {
                 $this-> name = $name;
-                $this-> starthealth = $starthealth = 60  ;
+                $this-> starthealth = $starthealth;
                 $this-> type = $type; 
                 $this-> attack = $attack;
                 $this-> health = $health;
