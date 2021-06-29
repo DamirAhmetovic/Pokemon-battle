@@ -5,8 +5,8 @@
     //require 'Charmeleon.php';
 
     $pokedex = [];
-    $pokedex [0] = new pokemon('Pikachu', 60, "electric ring", []); //EnergyType::LIGHTNING,
-    $pokedex [1] = new pokemon('Charmeleon', 60, "flair",  []); //EnergyType::FIRE,
+    $pokedex [0] = new pokemon('Pikachu', 60, []); //EnergyType::LIGHTNING,
+    $pokedex [1] = new pokemon('Charmeleon', 60, []); //EnergyType::FIRE,
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@
         <div class="card-body">
           <h4 class="card-title"><?php echo $PD->name ?></h4>
           <p class="card-text"><?php echo $PD->starthealth ?></p>
-          <p class="card-text"><?php echo $PD->attack ?></p>
+          <!-- <p class="card-text"><?php //echo $PD->attack ?></p> -->
           <p class="card-text"><?php echo $PD->type ?></p>
         </div>
       </div>

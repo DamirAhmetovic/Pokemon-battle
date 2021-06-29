@@ -11,7 +11,7 @@ class pokemon{
     {
         $this->name = $name;
         $this->starthealth = $starthealth;
-        $this->attack = $attack;
+        //$this->attack = $attack;
         $this->type = $type;    
     }
 }
